@@ -1,0 +1,22 @@
+/* Type */
+
+html {
+  font-size: 16pt;
+}
+
+  @media screen and (max-width: 1680px) {
+
+    html {
+      font-size: 12pt;
+    }
+
+  }
+
+  @media screen and (max-width: 1680px) {
+
+    #wrapper {
+      padding: 3rem 2rem;
+    }
+
+  }
+  

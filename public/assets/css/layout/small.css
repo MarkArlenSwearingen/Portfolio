@@ -1,0 +1,143 @@
+
+@media screen and (max-width: 736px) {
+
+  html {
+    font-size: 11pt;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  h1 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 1.25em;
+    line-height: 1.5;
+  }
+
+}
+
+sub {
+  font-size: 0.8rem;
+  position: relative;
+  top: 0.5rem;
+}
+
+sup {
+  font-size: 0.8rem;
+  position: relative;
+  top: -0.5rem;
+}
+
+blockquote {
+  border-left: solid 4px #ffffff;
+  font-style: italic;
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.075);
+  border-radius: 4px;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  margin: 0 0.25rem;
+  padding: 0.25rem 0.65rem;
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: "Courier New", monospace;
+  font-size: 0.9rem;
+  margin: 0 0 2rem 0;
+}
+
+  pre code {
+    display: block;
+    line-height: 1.75;
+    padding: 1rem 1.5rem;
+    overflow-x: auto;
+  }
+
+hr {
+  border: 0;
+  border-bottom: solid 1px #ffffff;
+  margin: 2.75rem 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+  
+@media screen and (max-width: 736px) {
+
+  .image.main {
+    margin: 2rem 0;
+  }
+}
+  @media screen and (max-width: 736px) {
+
+    #wrapper {
+      padding: 2rem 1rem;
+    }
+
+  }
+      
+@media screen and (max-width: 736px) {
+
+  #header > * {
+    margin-top: 2rem;
+  }
+
+    #header > *:before {
+      top: calc(-2rem - 1px);
+      height: calc(2rem + 1px);
+    }
+
+  #header .logo {
+    width: 4.75rem;
+    height: 4.75rem;
+    line-height: 4.75rem;
+  }
+
+    #header .logo .icon:before {
+      font-size: 1.75rem;
+    }
+
+  #header .content .inner {
+    padding: 2.5rem 1rem;
+  }
+
+  #header .content p {
+    line-height: 1.875;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  #main article {
+    padding: 3.5rem 2rem 0.5rem 2rem ;
+  }
+
+    #main article .close:before {
+      top: 0.875rem;
+      left: 0.875rem;
+      width: 2.25rem;
+      height: 2.25rem;
+      background-size: 14px 14px;
+    }
+
+}
