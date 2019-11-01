@@ -71,13 +71,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
-
-
-
-
 		
-	
 /* Form */
 
 	form {
@@ -125,8 +119,6 @@ input, select, textarea {
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375rem);
 				}
-
-		
 
 /* Box */
 
@@ -256,16 +248,7 @@ input, select, textarea {
 			}
 
 
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			.image.main {
-				margin: 1.5rem 0;
-			}
-
-		}
+		
 
 /* List */
 
@@ -389,56 +372,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		@media screen and (max-width: 480px) {
 
-			ul.actions:not(.fixed) {
-				-moz-flex-direction: column;
-				-webkit-flex-direction: column;
-				-ms-flex-direction: column;
-				flex-direction: column;
-				margin-left: 0;
-				width: 100% !important;
-			}
-
-				ul.actions:not(.fixed) li {
-					-moz-flex-grow: 1;
-					-webkit-flex-grow: 1;
-					-ms-flex-grow: 1;
-					flex-grow: 1;
-					-moz-flex-shrink: 1;
-					-webkit-flex-shrink: 1;
-					-ms-flex-shrink: 1;
-					flex-shrink: 1;
-					padding: 1rem 0 0 0;
-					text-align: center;
-					width: 100%;
-				}
-
-					ul.actions:not(.fixed) li > * {
-						width: 100%;
-					}
-
-					ul.actions:not(.fixed) li:first-child {
-						padding-top: 0;
-					}
-
-					ul.actions:not(.fixed) li input[type="submit"],
-					ul.actions:not(.fixed) li input[type="reset"],
-					ul.actions:not(.fixed) li input[type="button"],
-					ul.actions:not(.fixed) li button,
-					ul.actions:not(.fixed) li .button {
-						width: 100%;
-					}
-
-						ul.actions:not(.fixed) li input[type="submit"].icon:before,
-						ul.actions:not(.fixed) li input[type="reset"].icon:before,
-						ul.actions:not(.fixed) li input[type="button"].icon:before,
-						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
-							margin-left: -0.5em;
-						}
-
-		}
 
 /* Icons */
 
@@ -758,30 +692,6 @@ input, select, textarea {
 			display: block;
 		}
 
-		@media screen and (max-width: 1680px) {
-
-			#wrapper {
-				padding: 3rem 2rem;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#wrapper {
-				padding: 2rem 1rem;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#wrapper {
-				padding: 1rem;
-			}
-
-		}
-
 /* Header */
 
 	#header {
@@ -968,85 +878,13 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-		@media screen and (max-width: 980px) {
 
-			#header .content p br {
-				display: none;
-			}
 
 		}
 
-		@media screen and (max-width: 736px) {
 
-			#header > * {
-				margin-top: 2rem;
-			}
 
-				#header > *:before {
-					top: calc(-2rem - 1px);
-					height: calc(2rem + 1px);
-				}
 
-			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
-			}
-
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
-
-			#header .content .inner {
-				padding: 2.5rem 1rem;
-			}
-
-			#header .content p {
-				line-height: 1.875;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#header {
-				padding: 1.5rem 0;
-			}
-
-				#header .content .inner {
-					padding: 2.5rem 0;
-				}
-
-				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
-					min-width: 10rem;
-					max-width: 100%;
-				}
-
-					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #ffffff;
-					}
-
-						#header nav ul li:first-child {
-							border-top: 0;
-						}
-
-						#header nav ul li a {
-							height: 3rem;
-							line-height: 3rem;
-							min-width: 0;
-							width: 100%;
-						}
-
-				#header nav.use-middle:after {
-					display: none;
-				}
-
-		}
 
 /* Main */
 
@@ -1144,32 +982,8 @@ input, select, textarea {
 
 				#main article .close:active:before {
 					background-color: rgba(255, 255, 255, 0.175);
-				}
-
-		@media screen and (max-width: 736px) {
-
-			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
-			}
-
-				#main article .close:before {
-					top: 0.875rem;
-					left: 0.875rem;
-					width: 2.25rem;
-					height: 2.25rem;
-					background-size: 14px 14px;
-				}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			#main article {
-				padding: 3rem 1.5rem 0.5rem 1.5rem ;
-			}
-
-		}
-
+        }
+        
 /* Footer */
 
 	#footer {

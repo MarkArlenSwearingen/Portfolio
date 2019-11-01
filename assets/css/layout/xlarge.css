@@ -11,3 +11,12 @@ html {
     }
 
   }
+
+  @media screen and (max-width: 1680px) {
+
+    #wrapper {
+      padding: 3rem 2rem;
+    }
+
+  }
+  

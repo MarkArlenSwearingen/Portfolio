@@ -262,3 +262,120 @@ input[type="radio"] + label:before {
   color: rgba(255, 255, 255, 0.5) !important;
   opacity: 1.0;
 }
+
+@media screen and (max-width: 480px) {
+
+  .image.main {
+    margin: 1.5rem 0;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  ul.actions:not(.fixed) {
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 0;
+    width: 100% !important;
+  }
+
+    ul.actions:not(.fixed) li {
+      -moz-flex-grow: 1;
+      -webkit-flex-grow: 1;
+      -ms-flex-grow: 1;
+      flex-grow: 1;
+      -moz-flex-shrink: 1;
+      -webkit-flex-shrink: 1;
+      -ms-flex-shrink: 1;
+      flex-shrink: 1;
+      padding: 1rem 0 0 0;
+      text-align: center;
+      width: 100%;
+    }
+
+      ul.actions:not(.fixed) li > * {
+        width: 100%;
+      }
+
+      ul.actions:not(.fixed) li:first-child {
+        padding-top: 0;
+      }
+
+      ul.actions:not(.fixed) li input[type="submit"],
+      ul.actions:not(.fixed) li input[type="reset"],
+      ul.actions:not(.fixed) li input[type="button"],
+      ul.actions:not(.fixed) li button,
+      ul.actions:not(.fixed) li .button {
+        width: 100%;
+      }
+
+        ul.actions:not(.fixed) li input[type="submit"].icon:before,
+        ul.actions:not(.fixed) li input[type="reset"].icon:before,
+        ul.actions:not(.fixed) li input[type="button"].icon:before,
+        ul.actions:not(.fixed) li button.icon:before,
+        ul.actions:not(.fixed) li .button.icon:before {
+          margin-left: -0.5em;
+        }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+  #wrapper {
+    padding: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #header {
+    padding: 1.5rem 0;
+  }
+
+    #header .content .inner {
+      padding: 2.5rem 0;
+    }
+
+    #header nav ul {
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      min-width: 10rem;
+      max-width: 100%;
+    }
+
+      #header nav ul li {
+        border-left: 0;
+        border-top: solid 1px #ffffff;
+      }
+
+        #header nav ul li:first-child {
+          border-top: 0;
+        }
+
+        #header nav ul li a {
+          height: 3rem;
+          line-height: 3rem;
+          min-width: 0;
+          width: 100%;
+        }
+
+    #header nav.use-middle:after {
+      display: none;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  #main article {
+    padding: 3rem 1.5rem 0.5rem 1.5rem ;
+  }
+
+}
