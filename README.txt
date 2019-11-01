@@ -45,8 +45,8 @@ Number and name of feature: ___Modify the Contents___
 
 Estimate of time needed to complete: __3hours___
 
-Start time: _____
+Start time: __11:30___
 
-Finish time: _____
+Finish time: _11:45 in progress____
 
 Actual time needed to complete: _____
