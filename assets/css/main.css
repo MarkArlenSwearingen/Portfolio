@@ -247,9 +247,6 @@ input, select, textarea {
 				width: 100%;
 			}
 
-
-		
-
 /* List */
 
 	ol {
@@ -371,8 +368,6 @@ input, select, textarea {
 			ul.actions.fit.stacked {
 				width: 100%;
 			}
-
-
 
 /* Icons */
 
@@ -878,14 +873,6 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-
-
-		}
-
-
-
-
-
 /* Main */
 
 	#main {
@@ -1019,4 +1006,5 @@ input, select, textarea {
 
 		body.is-preload #footer {
 			opacity: 0;
-		}
+    }
+    
