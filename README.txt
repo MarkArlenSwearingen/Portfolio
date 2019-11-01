@@ -28,3 +28,25 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+Number and name of feature: ___Refactor the css_____
+
+Estimate of time needed to complete: _2 hours____
+
+Start time: _8:30am____
+
+Finish time: _11:30am____
+
+Actual time needed to complete: __3 hours___
+
+
+Number and name of feature: ___Modify the Contents___
+
+Estimate of time needed to complete: __3hours___
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
