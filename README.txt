@@ -50,3 +50,17 @@ Start time: __11:30___
 Finish time: _11:45 in progress____
 
 Actual time needed to complete: _____
+
+-------------Lab-05A--------------
+
+Number and name of feature: Add Functionality
+
+Estimate of time needed to complete: _2 hours____
+
+Start time: 10:30am_____
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
+
