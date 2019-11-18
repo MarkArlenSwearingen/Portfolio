@@ -59,8 +59,21 @@ Estimate of time needed to complete: _2 hours____
 
 Start time: 10:30am_____
 
-Finish time: _____
+Finish time: _12:00____
 
-Actual time needed to complete: _____
+Actual time needed to complete: _1.5 hours____
+
+
+
+Number and name of feature: Add reference link and content
+
+Estimate of time needed to complete: _1_hour___
+
+Start time: 10:30pm
+
+Finish time: 11:15pm
+
+Actual time needed to complete: _45 minutes____
+
 
 
